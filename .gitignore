@@ -1,17 +1,16 @@
-.nfs*
-*.ipynb
-*.pyc
-.dumbo.json
+
+# ignore cache dir
+__pycache__/
+.mypy_cache/
 .DS_Store
-.*.swp
-*.pth
-**/__pycache__/**
-.ipynb_checkpoints/
-datasets/data/
-experiment-*
-*.tmp
-*.pkl
-**/.mypy_cache/*
-.mypy_cache/*
-not_tracked_dir/
 .vscode
+*.pyc
+
+# ignore data dir
+data/
+datasets/data/
+temp/
+outputs/
+
+# ignore model weights 
+*.pth 
